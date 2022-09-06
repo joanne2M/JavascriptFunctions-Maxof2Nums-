@@ -1,0 +1,12 @@
+function BradaVowel(brad) {
+  let vowels = ["a", "e", "i", "o", "u"];
+
+  for (let i = 0; i < vowels.length; i++) {
+    if (char.smallVowels() === vowels[i]) {
+      return true;
+    }
+  }
+  return false;
+}
+
+console.log(BradaVowel("A"));
